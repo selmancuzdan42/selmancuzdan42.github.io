@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>404 — burada bir şey yok</title>
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#080A0F">
+
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body class="lost">
+  <div class="atmos" aria-hidden="true">
+    <span class="atmos__glow atmos__glow--warm"></span>
+    <span class="atmos__glow atmos__glow--cool"></span>
+    <span class="atmos__grid"></span>
+  </div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <main class="shell lost__wrap">
+    <pre class="lost__ascii" aria-label="404">██    ██  ████████  ██    ██
+██    ██  ██    ██  ██    ██
+██    ██  ██    ██  ██    ██
+████████  ██    ██  ████████
+      ██  ██    ██        ██
+      ██  ████████        ██</pre>
+
+    <div class="lost__term">
+      <div class="crt__bar">
+        <span class="crt__dot"></span><span class="crt__dot"></span><span class="crt__dot"></span>
+        <span class="crt__title">root@s3lm4n — honeypot</span>
+      </div>
+      <pre class="crt__screen lost__log" id="log"></pre>
+    </div>
+
+    <a class="btn btn--solid lost__back" href="/">
+      <span id="back">Güvenli bölgeye dön</span>
+      <span class="btn__arrow" aria-hidden="true">→</span>
+    </a>
+  </main>
+
+  <script src="/js/404.js"></script>
+</body>
+
+</html>
